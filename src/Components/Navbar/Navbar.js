@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="container flex_space">
-          <img src="/images/Voyage.png" alt="logo" className="applogo" />
+          <img src="/images/voyage.png" alt="logo" className="applogo" />
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div>
